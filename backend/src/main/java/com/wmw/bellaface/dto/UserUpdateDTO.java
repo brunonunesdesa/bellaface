@@ -1,0 +1,12 @@
+package com.wmw.bellaface.dto;
+
+import com.wmw.bellaface.services.validation.UserUpdateValid;
+
+@UserUpdateValid
+public class UserUpdateDTO extends UserDTO {
+	private static final long serialVersionUID = 1L;
+	
+	UserUpdateDTO(){
+		super();
+	}
+}
